@@ -9,9 +9,9 @@ gitbook build
 cd _book
 rm .travis.yml deploy.sh .gitignore
 git init
-git config user.name "Rater"
-git config user.email "ToutyRater@users.noreply.github.com"
-git remote add upstream "https://${GH_TOKEN}@github.com/ToutyRater/toutyrater.github.io"
+git config user.name "EvanWang"
+git config user.email "evan.wang.coding@gmail.com"
+git remote add upstream "https://${GH_TOKEN}@github.com/10211509/myquant.github.io"
 
 git checkout -b master
 git add -A
